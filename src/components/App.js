@@ -10,7 +10,7 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       // Do not alter the main div
-      <p id="para" className="hide">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+      <p id="para" className="hide show">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
       <button id="click" onClick={clickHandler}>Click me</button>
     </div>
   );
